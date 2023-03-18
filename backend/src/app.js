@@ -144,7 +144,37 @@ app.get("/admin/admin_login.css",(req,res)=>{
  app.get("/admin/admin.css",(req,res)=>{
     res.sendFile(sourcePath()+"/admin/admin.css")
  })
-
+// routing homepageCSS
+app.get("/home/homepage.css",(req,res)=>{
+    res.sendFile(sourcePath()+"/home/homepage.css")
+ })
+ // routing bootstrap.css
+app.get("/bootstrap/bootstrap.css",(req,res)=>{
+    res.sendFile(sourcePath()+"/bootstrap/bootstrap.css")
+ })
+ // routing home_style.css
+app.get("/bootstrap/home_style.css",(req,res)=>{
+    res.sendFile(sourcePath()+"/bootstrap/home_style.css")
+ })
+ //routing  image files
+ app.get("/images/python.png",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/python.png")
+ })
+ app.get("/images/dsa.jpg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/dsa.jpg")
+ })
+ app.get("/images/java.jpg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/java.jpg")
+ })
+ app.get("/images/ds.jpg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/ds.jpg")
+ })
+ app.get("/images/c.jpg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/c.jpg")
+ })
+ app.get("/images/cpp.jpg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/cpp.jpg")
+ })
 
 
  //------------Listening on port 3000 OR users PORT-------
