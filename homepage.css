@@ -21,3 +21,27 @@
     height: 70px;
    
  }
+
+ #image{
+
+    height:316px;
+    width: 474px;
+
+ }
+
+ @media (min-width:320px) {  .container {
+    width: 320px;
+} }
+@media (min-width:481px) {   .container {
+     width: 481px;
+ } }
+@media (min-width:641px) {   .container {
+     width: 641px;
+ } }
+@media (min-width:961px) {   .container {
+     width: 961px;
+ } }
+@media (min-width:1000px) {  .container {
+     width: 1000px;
+ } }
+
