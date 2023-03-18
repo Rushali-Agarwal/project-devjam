@@ -52,7 +52,7 @@ app.post("/signup", async(req,res) =>{
         res.status(400).send(error);
     }
     })
-// --------------LOGIN------------
+// -------------- USER LOGIN------------
 app.post("/",async(req,res)=>{
     try {
      const email = req.body.email;
@@ -72,6 +72,8 @@ app.post("/",async(req,res)=>{
     
 
 }) 
+
+//------------------------ADMIN LOGIN------------------------------
 
 
 app.listen(port,()=>{
