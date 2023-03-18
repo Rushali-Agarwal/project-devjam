@@ -12,33 +12,39 @@
     
   <div class="container">
     <div class ="icon">
-        <img src = "images/logo.png">
+        <img src = "/backend/src/logo.png">
     </div>
    <div class = "form-box">
     <h1>Sign up</h1>
-    <form> 
+    <form action="http://127.0.0.1:3000/signup" method="POST" > 
         <div class =" input-group">
             <div class ="input-field">
                 <i class="fa-solid fa-user"></i>
-                <input type ="text" placeholder ="Name">
+                <input type ="text" name ="name" placeholder ="Name">
             </div>
             <div class ="input-field">
                 <i class="fa-solid fa-envelope"></i>
-                <input type ="email" placeholder ="Email">
+                <input type ="email" name ="email"placeholder ="Email">
             </div>
             <div class ="input-field">
                 <i class="fa-solid fa-lock"></i>
-                <input type ="password" placeholder ="Password">
-            </div> <br>
-             <a href = "#"><u>Forget Password?</u></a></p><br>
+                <input type ="password" name="password" placeholder ="Password">
+            </div>
+            <!-- <div class ="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type ="password" name ="cpassword" placeholder ="Confirm password">
+            </div> <br> -->
+             <a href = "#contact"><u>Forget Password?</u></a></p><br>
         </div>
         <div class="btn-field">
-           <button type = "button">Sign up</button>  <br>
+           <button type = "submit">Sign up</button>  <br>
         </div>
-    </form>
+    </form>    
    </div>
+   
 
   </div>  
+  <div id="contact">MAIL US TO RETRIVE YOUR PASSWORD</div>
    
     
     
