@@ -7,7 +7,7 @@
  .container{
     width:100%;
     height: 150vh;
-    background-image: linear-gradient(rgba(0,0,50,0.8)50%,rgba(0,0,50,0.8)),url(admin_background.jpeg); 
+    background-image: linear-gradient(rgba(0,0,50,0.8)50%,rgba(0,0,50,0.8)),url("/admin/admin_background.jpeg"); 
     opacity: 0.8;
     background-position: center;
     background-size: cover;
