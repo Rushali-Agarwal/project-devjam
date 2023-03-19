@@ -9,6 +9,7 @@
     background-position: centre;
     background-size: cover;
     position: relative;
+    
 }
  .navbar {
     width: 1200px;
@@ -54,6 +55,7 @@
     font-family:Arial ;
     font-weight: bold;
     transition: 0.4s ease-in-out; 
+    margin-right: 30px;
  }
 
  ul li a:hover{
@@ -86,6 +88,15 @@
 .content h2{
     color:crimson;
 }
+.content::after{
+   content: '';
+   width:10px;
+   height:80%;
+   background: linear-gradient(crimson,crimson);
+   position:absolute;
+   left:-10px;
+   top:8px;
+}
 
 .form{
     width:250px;
@@ -114,7 +125,7 @@
     background:transparent;
     border-bottom: 1px solid crimson;
     border-top: none;
-    border-top:none;
+    
     border-right:none;
     border-left:none;
     color:rgb(59, 82, 129);
@@ -192,6 +203,7 @@
      color:crimson;
  }
 
+<<<<<<< HEAD
  @media (min-width:320px) {  .container {
    width: 320px;
 } }
@@ -207,3 +219,8 @@
 @media (min-width:1000px) {  .container {
     width: 1000px;
 } }
+=======
+ @media only screen and (max-width:700px){
+   
+ }
+>>>>>>> 33cf7843974fb1f25d3e124ec576a35a4e95dd1e

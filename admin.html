@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Credentials</title>
+    <link rel ="stylesheet" href = "admin.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class ="icon">
+            <img src = "images/logo.png"> 
+        </div>
+       <div class = "form-box">
+        <h1>COURSE CREDENTIALS</h1>
+        <form action="/home" method="POST"> 
+                <div class = "input-field">
+                    <input type ="text" name = "name" placeholder="Course Name">                
+                </div>
+                <div class ="input-field">
+
+                     <input type ="text" name = "course" placeholder="Name of the course platform">
+                     </div>
+                     <div class ="input-field"> 
+                          <input type ="url" name = "website link" placeholder = "Website Url">
+                        </div>
+                     <div class ="input-field"> 
+                        <input type="url" name="page link" placeholder=" Page link (example.html)"> 
+                    </div>
+                    
+                    <div class ="input-field"> 
+                    <input type="file" name="newfile" placeholder="select a image to upload">
+                    </div>
+                    <div class ="input-field"> 
+                    <input type = "number" placeholder="Enter rating in number form">
+                    </div>
+                    <div class ="input-field"> 
+                    <input type = "text" placeholder = "Enter the price ">
+                    </div>
+                    <div class ="input-field"> 
+                    <input type = "text" placeholder = "Name of tutor ">
+                    </div>
+                    <div class ="input-field">
+                        <input type = "text" placeholder = "Tutor's Description">
+                    </div>
+                 
+            
+            <div class="btn-field">
+                <button type = "button" onclick="window.location.href=alert('Course is added');"> Add Courses</button>
+                <button type = "button" onclick="window.location.href=alert('Course is removed')"> Remove Courses</button>
+             
+                
+            </div>
+        </form>
+       </div>
+    
+      </div>  
+</body>
+</html>
