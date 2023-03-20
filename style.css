@@ -2,6 +2,7 @@
     margin:0;
     padding:0; 
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -11,6 +12,7 @@
     position: relative;
     
 }
+
  .navbar {
     width: 1200px;
     height: 75px;
@@ -201,6 +203,72 @@
  }
  .icon ion-icon:hover{
      color:crimson;
+ }
+  
+ /* Contact CSS */
+ section{
+   text-align: center;
+ }
+
+ .contact-message {
+   width: 40%;
+   font-weight: bold;
+   margin: 40px auto 60px;
+ }
+ .btn {
+   background: #11cdd4;
+   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+   -webkit-border-radius: 12;
+   -moz-border-radius: 12;
+   border-radius: 12px;
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+ }
+ 
+ .btn:hover {
+   background: #30e3cb;
+   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+   text-decoration: none;
+ }
+ 
+ /* Social Links */
+ .bottom-container {
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+   
+ }
+ 
+ .footer-link {
+   font-size: 30px;
+   color: #231e23;
+   padding: 10px 20px;
+   text-decoration: none;
+ }
+ 
+ .footer-link:hover {
+   color: #EAF6F6;
+ }
+ 
+ /* copyright button */
+
+ .copyright {
+   color: #EAF6F6;
+   font-family:Arial ;
+   font-size: 1rem;
+   padding-top: 4px;
+   margin-top: 10px;
+   
  }
 
  @media only screen and (max-width:700px){
