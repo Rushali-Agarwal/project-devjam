@@ -157,27 +157,133 @@ app.get("/bootstrap/home_style.css",(req,res)=>{
     res.sendFile(sourcePath()+"/bootstrap/home_style.css")
  })
  //routing  image files
- app.get("/images/python.png",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/python.png")
+ app.get("/images/python.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/python.jpeg")
  })
  app.get("/images/dsa.jpg",(req,res)=>{
     res.sendFile(sourcePath()+"/images/dsa.jpg")
  })
- app.get("/images/java.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/java.jpg")
+ app.get("/images/java.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/java.jpeg")
  })
- app.get("/images/ds.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/ds.jpg")
+ app.get("/images/react.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/react.jpeg")
  })
- app.get("/images/c.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/c.jpg")
+ app.get("/images/c.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/c.jpeg")
  })
- app.get("/images/cpp.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/cpp.jpg")
+ app.get("/images/cpp.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/cpp.jpeg")
  })
+// courses
+
+app.get("/course_pages/c.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/c.html")
+})
+
+app.get("/course_pages/cpp.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/cpp.html")
+})
+
+app.get("/course_pages/dsa.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/dsa.html")
+})
+
+app.get("/course_pages/python.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/python.html")
+})
+
+app.get("/course_pages/java.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/java.html")
+})
+
+app.get("/course_pages/react.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/react.html")
+})
+
+//......homepage......
+app.get("/home/home.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/home/home.html")
+})
+
+//........course page images.......
+
+//.....c page images..........
+app.get("/images/1udemy_c.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1udemy_c.png")
+})
+
+app.get("/images/2coursera_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2coursera_c.jpg")
+})
+
+app.get("/images/3udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3udemy_c.jpg")
+})
+
+app.get("/images/4coursera_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4coursera_c.jpg")
+})
+
+app.get("/images/4udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4udemy_c.jpg")
+})
+
+app.get("/images/8udemy_C.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8udemy_C.jpg")
+})
+
+app.get("/images/5udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5udemy_c.jpg")
+})
+
+app.get("/images/c_back.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/c_back.jpg")
+})
+
+//.......cpp page images............
+
+app.get("/images/1cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1cpp.jpg")
+})
+
+app.get("/images/2cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2cpp.jpg")
+})
+
+app.get("/images/3cpp.jpeg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3cpp.jpeg")
+})
+
+
+app.get("/images/4cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4cpp.jpg")
+})
+
+app.get("/images/5c++.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5c++.jpg")
+})
+
+app.get("/images/5c++.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5c++.jpg")
+})
+
+app.get("/images/6c++.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/6c++.png")
+})
+
+app.get("/images/7c++.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/7c++.jpg")
+})
+
+app.get("/images/8c++.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8c++.jpg")
+})
 
 
  //------------Listening on port 3000 OR users PORT-------
 app.listen(port,()=>{
     console.log('Server is running on  ' + port)
 })
+
+
