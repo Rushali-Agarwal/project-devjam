@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.about-area{
+    padding-top: 5%;
+}
+.about-img{
+    position: relative;
+    margin-top: 40%;
+}
+.about-img:before{
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: 30px;
+    border: 9px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    padding-top: 20%;
+}
+.about-text h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.about-text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+     .about-text , .personal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+
+.icon a{
+    text-decoration: none;
+    color: rgb(59, 82, 129); 
+    
+ }
+
+ .icon ion-icon{
+    color: rgb(59, 82, 129);
+    font-size:30px;
+   
+    padding-left:5px;
+    padding-top: 10px;
+    transition:0.4s;
+    
+    
+ }
+ .icon ion-icon:hover{
+     color:crimson;
+ }
+
+
+body {
+    background-color: #EDEDED !important;
+}
