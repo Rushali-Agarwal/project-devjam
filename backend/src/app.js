@@ -140,6 +140,14 @@ app.get("/admin/admin_login.css",(req,res)=>{
  app.get("/admin/admin_background.jpeg",(req,res)=>{
     res.sendFile(sourcePath()+"/admin/admin_background.jpeg")
  })
+ //aboutus page route
+ app.get("/aboutus/aboutus.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/aboutus/aboutus.html")
+})
+//aboutus css route
+app.get("/aboutus/aboutus.css",(req,res)=>{
+   res.sendFile(sourcePath()+"/aboutus/aboutus.css")
+})
  //routing admin.css file
  app.get("/admin/admin.css",(req,res)=>{
     res.sendFile(sourcePath()+"/admin/admin.css")
@@ -157,27 +165,197 @@ app.get("/bootstrap/home_style.css",(req,res)=>{
     res.sendFile(sourcePath()+"/bootstrap/home_style.css")
  })
  //routing  image files
- app.get("/images/python.png",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/python.png")
+ app.get("/images/python.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/python.jpeg")
  })
+ app.get("/images/about.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/about.jpg")
+})
  app.get("/images/dsa.jpg",(req,res)=>{
     res.sendFile(sourcePath()+"/images/dsa.jpg")
  })
- app.get("/images/java.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/java.jpg")
+ app.get("/images/java.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/java.jpeg")
  })
- app.get("/images/ds.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/ds.jpg")
+ app.get("/images/react.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/react.jpeg")
  })
- app.get("/images/c.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/c.jpg")
+ app.get("/images/c.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/c.jpeg")
  })
- app.get("/images/cpp.jpg",(req,res)=>{
-    res.sendFile(sourcePath()+"/images/cpp.jpg")
+ app.get("/images/cpp.jpeg",(req,res)=>{
+    res.sendFile(sourcePath()+"/images/cpp.jpeg")
  })
+// courses
 
+app.get("/course_pages/c.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/c.html")
+})
+
+app.get("/course_pages/cpp.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/cpp.html")
+})
+
+app.get("/course_pages/dsa.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/dsa.html")
+})
+
+app.get("/course_pages/python.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/python.html")
+})
+
+app.get("/course_pages/java.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/java.html")
+})
+
+app.get("/course_pages/react.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/course_pages/react.html")
+})
+
+//......homepage......
+app.get("/home/home.html",(req,res)=>{
+   res.sendFile(sourcePath()+"/home/home.html")
+})
+
+//........course page images.......
+
+//.....c page images..........
+app.get("/images/1udemy_c.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1udemy_c.png")
+})
+
+app.get("/images/2coursera_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2coursera_c.jpg")
+})
+
+app.get("/images/3udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3udemy_c.jpg")
+})
+
+app.get("/images/4coursera_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4coursera_c.jpg")
+})
+
+app.get("/images/4udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4udemy_c.jpg")
+})
+
+app.get("/images/8udemy_C.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8udemy_C.jpg")
+})
+
+app.get("/images/5udemy_c.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5udemy_c.jpg")
+})
+
+app.get("/images/c_back.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/c_back.jpg")
+})
+
+//.......cpp page images............
+
+app.get("/images/1cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1cpp.jpg")
+})
+
+app.get("/images/2cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2cpp.jpg")
+})
+
+app.get("/images/3cpp.jpeg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3cpp.jpeg")
+})
+
+
+app.get("/images/4cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4cpp.jpg")
+})
+
+
+app.get("/images/5cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5cpp.jpg")
+})
+
+app.get("/images/6cpp.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/6cpp.png")
+})
+
+app.get("/images/7cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/7cpp.jpg")
+})
+
+app.get("/images/8cpp.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8cpp.jpg")
+})
+
+// python pages images
+
+app.get("/images/1python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1python.jpg")
+})
+app.get("/images/2python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2python.jpg")
+})
+app.get("/images/3python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3python.png")
+})
+app.get("/images/4python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4python.jpg")
+})
+app.get("/images/5python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5python.jpg")
+})
+app.get("/images/6python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/6python.png")
+})
+app.get("/images/7python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/7python.jpg")
+})
+app.get("/images/8python.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8python.png")
+})
+// react
+app.get("/images/1react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1react.jpg")
+})
+app.get("/images/2react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2react.jpg")
+})
+app.get("/images/3react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3react.jpg")
+})
+app.get("/images/4react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4react.jpg")
+})
+app.get("/images/5react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/5react.jpg")
+})
+app.get("/images/6react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/6react.jpg")
+})
+app.get("/images/7react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/7react.jpg")
+})
+app.get("/images/8react.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/8react.jpg")
+})
+// java images 
+app.get("/images/1java.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/1java.png")
+})
+app.get("/images/2java.png",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/2java.png")
+})
+app.get("/images/3java.jpg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/3java.jpg")
+})
+app.get("/images/4java.jpeg",(req,res)=>{
+   res.sendFile(sourcePath()+"/images/4java.jpeg")
+})
 
  //------------Listening on port 3000 OR users PORT-------
 app.listen(port,()=>{
     console.log('Server is running on  ' + port)
 })
+
+

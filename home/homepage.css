@@ -1,7 +1,7 @@
 .main{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top , rgba(4,9,30,0.7)75%,rgba(4,9,30,0.7)),url("/images/banner.jpeg");
+    background-image: linear-gradient(to top , rgba(4,9,30,0.7)75%,rgba(4,9,30,0.7)),url("/../../images/banner.jpeg");
     background-position: centre;
     background-size: cover;
     position: relative;
@@ -26,3 +26,34 @@ align-items: center;
     height: 70px;
    
  }
+
+ #image{
+
+    height:316px;
+    width: 474px;
+
+ }
+
+ .name{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+}
+
+
+ @media (min-width:320px) {  .container {
+    width: 320px;
+} }
+@media (min-width:481px) {   .container {
+     width: 481px;
+ } }
+@media (min-width:641px) {   .container {
+     width: 641px;
+ } }
+@media (min-width:961px) {   .container {
+     width: 961px;
+ } }
+@media (min-width:1000px) {  .container {
+     width: 1000px;
+ } }
+
