@@ -1,134 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-         <!--BOOTSTRAP-->
-        <link href="/bootstrap/bootstrap.css" rel="stylesheet">
-        <link href="/bootstrap/home_style.css" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link href="/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="/bootstrap/home_style.css" rel="stylesheet" />
 
-        <!--JS-->
-        <script src="/bootsatrp/jquery.js"></script>
-        <script src="/bootsatrp/bootstrap.min.js"></script>
+    <!--JS-->
+    <script src="/bootstrap/jquery.js"></script>
+    <script src="/bootstrap/bootstrap.min.js"></script>
 
-        <!--CSS-->
-        <link rel="stylesheet"   href="/home/homepage.css" > 
-</head>
+    <!--CSS-->
+    <link rel="stylesheet" href="/home/homepage.css" />
+  </head>
 
-<body>
-    <h1>BEST RATED COURSES</h1>
+  <body>
+    <h1 class="name">BEST RATED COURSES</h1>
     <div class="main">
-        <div class="container container-fluid">
-            <div class ="navbar-fixed-top" style="background-color: black;">
-                <img src = "images/logo.png">
+      <div class="container container-fluid">
+        <div class="navbar-fixed-top" style="background-color: black">
+          <img src="/images/logo.png" />
+        </div>
+      </div>
+
+      <div class="container container-fluid">
+        <!--C programming-->
+        <div class="row">
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="c.html">
+                <img src="/images/c.jpg" alt="C" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/c.html"> <img src="/images/c.jpeg" alt="C" /> </a>
+
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/c.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
             </div>
+          </div>
+
+          <!--CPP programming-->
+
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="cpp.html">
+                <img src="images/c++.jpg" alt="C++" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/cpp.html"> <img src="/images/cpp.jpeg" alt="CPP" /> </a>
+            
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/cpp.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--JAVA-->
+
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="java.html">
+                <img src="images/java.jpg" alt="JAVA" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/java.html"> <img src="/images/java.jpeg" alt="JAVA" /> </a>
+             
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/java.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container-fluid">
+        <!--REACT-->
+        <div class="row">
+
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="dsa.html">
+                <img src="images/dsa.jpg" alt="dsa" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/react.html"> <img src="/images/react.jpeg" alt="react" /> </a>
+              
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/react.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          <!--DSA-->
+  
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="dsa.html">
+                <img src="images/dsa.jpg" alt="dsa" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/dsa.html"> <img src="/images/dsa.jpg" alt="dsa" /> </a>
+              
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/dsa.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <!--Python-->
+  
+          <div class="col-md-4 col-sm-6 home-feature">
+            <div class="thumbnail">
+              <!-- <<<<<<< HEAD:homepage.html
+              <a href="python.html">
+                <img src="images/python.png" alt="python" class="image" />
+              </a>
+              ======= -->
+              <a href="/course_pages/python.html"> <img src="/images/python.jpeg" alt="python" /> </a>
+              
+              <div class="caption">
+                <p>
+                  <a
+                    href="/course_pages/python.html"
+                    role="button"
+                    class="btn btn-primary btn-block"
+                    >View All The Courses</a
+                  >
+                </p>
+              </div>
+  
+  
+  
+  
+  
+  
+  
+            </div>
+          </div>
+
         </div>
         
-        <div class="container container-fluid">
-
-             <!--C programming-->
-          <div class="row">
-            
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail">
-                    
-                    <a href="#"> <img src="/images/c.jpg" alt="C"> </a>
-                    <div class="caption">
-                    <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                    </div>
-                </div>
-               
-    
-              </div>
-
-        <!--CPP programming-->
-          
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail">
-                    
-                    <a href="#"> <img src="/images/cpp.jpg" alt="C"> </a>
-                    <div class="caption">
-                    <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                    </div>
-                </div>
-               
-    
-            </div>
-
-               <!--JAVA-->
-     
-        <div class="col-md-4 col-sm-6">
-            <div class="thumbnail">
-                
-                <a href="#"> <img src="/images/java.jpg" alt="JAVA"> </a>
-                <div class="caption">
-                <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                </div>
-            </div>
-           
-
-        </div>
-            
-        </div>
-        </div>
-         
-          
-        <div class="container container-fluid">
-
-             <!--DS-->
-          
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail">
-                    
-                    <a href="#"> <img src="/images/ds.jpg" alt="C"> </a>
-                    <div class="caption">
-                    <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                    </div>
-                </div>
-               
-    
-              </div>
-          
-
-          <!--DSA-->
-          
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail">
-                    
-                    <a href="#"> <img src="/images/dsa.jpg" alt="C"> </a>
-                    <div class="caption">
-                    <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                    </div>
-                </div>
-               
-    
-              </div>
-          
-
-          <!--Python-->
-          
-            <div class="col-md-4 col-sm-6">
-                <div class="thumbnail">
-                    
-                    <a href="#"> <img src="/images/python.png" alt="C"> </a>
-                    <div class="caption">
-                    <p><a href="#" role="button" class="btn btn-primary btn-block">View All The Courses</a></p>
-                    </div>
-                </div>
-               
-    
-              </div>
-          
-            
-        </div>
-    
-             
-       
-
-    </div>  <!--end of main class-->
-   
-    
-</body>
+      </div>
+    </div>
+    <!--end of main class-->
+  </body>
 </html>

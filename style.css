@@ -203,6 +203,24 @@
      color:crimson;
  }
 
+<<<<<<< HEAD
+ @media (min-width:320px) {  .container {
+   width: 320px;
+} }
+@media (min-width:481px) {   .container {
+    width: 481px;
+} }
+@media (min-width:641px) {   .container {
+    width: 641px;
+} }
+@media (min-width:961px) {   .container {
+    width: 961px;
+} }
+@media (min-width:1000px) {  .container {
+    width: 1000px;
+} }
+=======
  @media only screen and (max-width:700px){
    
  }
+>>>>>>> 33cf7843974fb1f25d3e124ec576a35a4e95dd1e
